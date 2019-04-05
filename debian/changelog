@@ -1,0 +1,58 @@
+ros-kinetic-rexrov2-gazebo (0.1.3-0xenial) xenial; urgency=high
+
+
+
+ -- Musa Morena Marcusso Manhaes <Musa.Marcusso@de.bosch.com>  Thu, 04 Apr 2019 22:00:00 -0000
+
+ros-kinetic-rexrov2-gazebo (0.1.2-0xenial) xenial; urgency=high
+
+  * Update package format
+    Signed-off-by: Musa Morena Marcusso Manhães <mailto:Musa.Marcusso@de.bosch.com>
+  * Contributors: Musa Morena Marcusso Manhães
+
+ -- Musa Morena Marcusso Manhaes <Musa.Marcusso@de.bosch.com>  Mon, 11 Mar 2019 23:00:00 -0000
+
+ros-kinetic-rexrov2-gazebo (0.1.1-0xenial) xenial; urgency=high
+
+  * Fix paths to launch and plugin files after refactor
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * Contributors: Musa Morena Marcusso Manhaes
+
+ -- Musa Morena Marcusso Manhaes <Musa.Marcusso@de.bosch.com>  Wed, 13 Feb 2019 23:00:00 -0000
+
+ros-kinetic-rexrov2-gazebo (0.1.0-0xenial) xenial; urgency=high
+
+  * Merge pull request #16 <https://github.com/uuvsimulator/rexrov2/issues/16> from uuvsimulator/fix/add_max_forward_speed
+    ADD Max. forward speed argument to NMB SM control launch file
+  * ADD Max. forward speed argument to NMB SM control launch file
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * Merge pull request #14 <https://github.com/uuvsimulator/rexrov2/issues/14> from uuvsimulator/feature/pd_with_compensation
+    ADD Launch files for PD controller with compensation of restoring forces
+  * ADD Launch files for PD controller with compensation of restoring forces
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * Merge pull request #13 <https://github.com/uuvsimulator/rexrov2/issues/13> from uuvsimulator/fix/controller_launch_files
+    Fix/controller launch files
+  * FIX Launch files input arguments
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * Merge pull request #11 <https://github.com/uuvsimulator/rexrov2/issues/11> from uuvsimulator/fix/set_ned_frame
+    FIX use_ned_frame was flag to NED inertial frame
+  * FIX use_ned_frame was flag to NED inertial frame
+  * Merge pull request #9 <https://github.com/uuvsimulator/rexrov2/issues/9> from uuvsimulator/fix/record_bag_file
+    FIX Default bag filename
+  * FIX Default bag filename
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * Merge pull request #7 <https://github.com/uuvsimulator/rexrov2/issues/7> from uuvsimulator/fix/record_demo_launch
+    Fix/record demo launch
+  * FIX Path to the record launch file
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * ADD Demo record launch file for output topics
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * Merge pull request #5 <https://github.com/uuvsimulator/rexrov2/issues/5> from uuvsimulator/feature/add_demos
+    ADD Demos and examples on README
+  * ADD Demos and examples on README
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * Contributors: Musa Morena Marcusso Manhaes, Musa Morena Marcusso Manhães
+
+ -- Musa Morena Marcusso Manhaes <Musa.Marcusso@de.bosch.com>  Tue, 03 Jul 2018 22:00:00 -0000
+
+
