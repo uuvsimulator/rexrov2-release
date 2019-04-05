@@ -1,0 +1,12 @@
+Source: ros-kinetic-rexrov2-control
+Section: misc
+Priority: extra
+Maintainer: Musa Morena Marcusso Manhaes <Musa.Marcusso@de.bosch.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rexrov2-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-gazebo-ros, ros-kinetic-gazebo-ros-control, ros-kinetic-uuv-control-cascaded-pid, ros-kinetic-uuv-thruster-manager, ros-kinetic-uuv-trajectory-control
+Description: The rexrov2_control package
