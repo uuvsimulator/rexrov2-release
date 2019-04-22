@@ -1,0 +1,12 @@
+Source: ros-lunar-rexrov2-gazebo
+Section: misc
+Priority: extra
+Maintainer: Musa Morena Marcusso Manhaes <Musa.Marcusso@de.bosch.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-rexrov2-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-rexrov2-control, ros-lunar-rexrov2-description
+Description: Package with launch files for demonstrations with the RexROV 2 vehicle
