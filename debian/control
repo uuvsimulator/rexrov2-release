@@ -1,0 +1,12 @@
+Source: ros-lunar-rexrov2-description
+Section: misc
+Priority: extra
+Maintainer: Musa Morena Marcusso Manhaes <Musa.Marcusso@de.bosch.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin, ros-lunar-rostest, ros-lunar-rosunit, ros-lunar-xacro
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-rexrov2-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-gazebo-ros, ros-lunar-gazebo-ros-control, ros-lunar-robot-state-publisher, ros-lunar-uuv-assistants, ros-lunar-uuv-descriptions, ros-lunar-uuv-gazebo-ros-plugins, ros-lunar-uuv-sensor-ros-plugins, ros-lunar-xacro
+Description: The robot description files for the RexROV 2 underwater vehicle
